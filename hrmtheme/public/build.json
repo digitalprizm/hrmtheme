@@ -1,0 +1,16 @@
+{
+    "css/hrmtheme.min.css": [
+        "public/css/hrmtheme.css",
+        "public/css/skin-blue.css",
+        "public/css/custom.css",
+        "public/css/temp.css"
+    ],
+    "js/hrmtheme.min.js": [
+        "public/js/hrmtheme.js",
+        "public/js/custom.js"
+    ],
+    "js/hrmtheme-template.min.js": [
+        "public/js/template/main-sidebar.html"
+    ]
+    
+}
