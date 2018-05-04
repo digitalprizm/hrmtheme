@@ -376,14 +376,14 @@
  width:25px;
 }
 .main-sidebar .sidebar-menu .treeview-menu>li>a>.pull-right-container>.fa-angle-left,.main-sidebar .sidebar-menu .treeview-menu>li>a>.pull-right-container>.fa-angle-down,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa-angle-left,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa-angle-down {
- width:270px;
+ width:370px;
 }
-ul.treeview-menu {
+/*ul.treeview-menu.active {
+    width: 280px !important;
+}
+li.treeview.active {
     width: 270px !important;
-}
-li.treeview {
-    width: 270px !important;
-}
+}*/
 /*
  * Component: Sidebar Mini
  */
@@ -420,7 +420,7 @@ li.treeview {
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span:not(.pull-right),.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>.treeview-menu {
   display:block !important;
   position:absolute;
-  width:180px;
+  width:380px;
   left:50px
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span {
@@ -432,7 +432,7 @@ li.treeview {
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>.pull-right-container {
   float:right;
   width:auto!important;
-  left:200px!important;
+  left:300px!important;
   top:10px!important
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>.pull-right-container>.label:not(:first-of-type) {
